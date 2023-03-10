@@ -21,6 +21,7 @@ jobs:
            uses: pnpm/action-setup@v2
            with:
               node-version: ${{ matrix.node-version }}
+              version: current
               cache: "pnpm"
 
          - name: Install dependencies
