@@ -53,6 +53,7 @@ export default function Header() {
                   <div className="dropdown" data-dropdown>
                     <button className="dropdown-button">
                       <i
+                        aria-hidden
                         id="menu-icon"
                         data-dropdown-button
                         className="fa fa-bars fa-xl"></i>
