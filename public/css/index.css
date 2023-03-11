@@ -193,7 +193,7 @@ main {
 #title-description {
 	margin-top: 2rem;
 	font-size: 3.5rem;
-	font-weight: 200;
+	font-weight: 100;
 }
 
 #learn-more {
@@ -356,7 +356,7 @@ main {
 }
 
 .award-presenter {
-	font-weight: 200;
+	font-weight: 100;
 }
 
 .award-year {
