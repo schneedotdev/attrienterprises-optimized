@@ -1,3 +1,4 @@
+import Dropdown from './Dropdown'
 import Image from './Image'
 
 export default function Header() {
@@ -48,48 +49,7 @@ export default function Header() {
                   Contact
                 </a>
 
-                {/* Dropdown will appear on mobile and replace items on Navbar, functionality in js/dropdown.js */}
-                <div className="dropdown-container">
-                  <div className="dropdown" data-dropdown>
-                    <button className="dropdown-button">
-                      <i
-                        aria-hidden
-                        id="menu-icon"
-                        data-dropdown-button
-                        className="fa fa-bars fa-xl"></i>
-                    </button>
-
-                    <div className="dropdown-menu">
-                      <ul className="mobile-list">
-                        <li>
-                          <a className="link-hover" href="#profile">
-                            Profile
-                          </a>
-                        </li>
-                        <li>
-                          <a className="link-hover" href="#history">
-                            History
-                          </a>
-                        </li>
-                        <li>
-                          <a className="link-hover" href="#projects">
-                            Projects
-                          </a>
-                        </li>
-                        <li>
-                          <a className="link-hover" href="#awards">
-                            Awards
-                          </a>
-                        </li>
-                        <li>
-                          <a className="link-hover" href="#contact-info">
-                            Contact
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                <Dropdown />
               </li>
             </ul>
           </li>
