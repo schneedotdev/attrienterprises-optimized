@@ -168,7 +168,7 @@ main {
 	padding: 8rem 0;
 	text-align: center;
 	color: white;
-	background: url('../assets/images/main-background.png') center center no-repeat;
+	background: url('../assets/images/main-background.webp') center center no-repeat;
 	background-size: cover;
 }
 
@@ -225,12 +225,12 @@ main {
 }
 
 .image-right {
-	background: url(../assets/projects/proj-4.jpg) center right no-repeat;
+	background: url(../assets/projects/proj-4.webp) center right no-repeat;
 	background-size: 100rem;
 }
 
 .image-left {
-	background: url(../assets/projects/proj-2.png) center left no-repeat;
+	background: url(../assets/projects/proj-2.webp) center left no-repeat;
 	background-size: 90rem;
 }
 
