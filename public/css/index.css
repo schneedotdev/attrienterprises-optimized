@@ -46,7 +46,7 @@ li {
 }
 
 .background-img-container {
-	background: url('../assets/images/attri-opacity.png') center center no-repeat;
+	background: url('../assets/images/attri-opacity.webp') center center no-repeat;
 	background-size: cover;
 	width: 100%;
 }
