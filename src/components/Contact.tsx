@@ -32,7 +32,9 @@ export default function Contact() {
     <div className="row footer-neumorphism">
       {/* Google Maps Location */}
       <a id="map-link" href="https://goo.gl/maps/6LHqZymPPTZ6F4mf8">
-        <span id="view-larger">View larger map</span>
+        <span id="view-larger">
+          View larger map
+        </span>
         <Image
           id="map"
           imgSrc="assets/images/map-preview.png"

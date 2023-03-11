@@ -552,7 +552,8 @@ main {
 		width: 5rem;
 	}
 
-	#map {
+	#map,
+	#view-larger {
 		display: none;
 	}
 
