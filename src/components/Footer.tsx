@@ -6,7 +6,7 @@ const AttriInfo = () => {
     <section className="column">
       <Image
         id="footer-logo"
-        imgSrc="assets/images/attri-logo.png"
+        imgSrc="assets/images/attri-logo-sm.png"
         altText="Attri Enterprises Inc. Logo"
       />
       <h5 id="footer-name">Attri Enterprises</h5>

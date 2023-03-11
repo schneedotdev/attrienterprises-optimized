@@ -7,7 +7,7 @@ export default function Main() {
       <div className="background-design">
         <Image
           id="logo-main"
-          imgSrc="./assets/images/attri-logo.png"
+          imgSrc="./assets/images/attri-logo-md.png"
           altText="Attri Enterprises Inc. logo"
         />
         <h1 id="title">Attri Enterprises</h1>

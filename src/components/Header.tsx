@@ -11,7 +11,7 @@ export default function Header() {
             <a id="attri" href="index.html">
               <Image
                 id="logo"
-                imgSrc="assets/images/attri-logo.png"
+                imgSrc="assets/images/attri-logo-sm.png"
                 altText="Attri Enterprises Inc. Logo"
               />
               <span id="company-name"> Attri Enterprises</span>
