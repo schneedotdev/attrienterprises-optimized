@@ -5,17 +5,17 @@ type MembershipProps = {
   altText: string
 }
 
-const membershipData = [
+const membershipData: MembershipProps[] = [
   {
     imgSrc: './assets/memberships/abc.png',
     altText: 'Assosciated Builders and Contractors Logo'
   },
   {
-    imgSrc: './assets/memberships/goldshovelstandard.png',
+    imgSrc: './assets/memberships/goldshovelstandard.webp',
     altText: 'Gold Shovel Standard Logo'
   },
   {
-    imgSrc: './assets/memberships/greenbuildingcouncil.png',
+    imgSrc: './assets/memberships/greenbuildingcouncil.webp',
     altText: 'U.S. Green Building Council Logo'
   },
   {
@@ -27,11 +27,11 @@ const membershipData = [
     altText: 'The Regional Alliance for Small Contractors Logo'
   },
   {
-    imgSrc: './assets/memberships/uschamber.png',
+    imgSrc: './assets/memberships/uschamber.webp',
     altText: 'U.S. Chamber of Commerce Logo'
   },
   {
-    imgSrc: './assets/memberships/rwca.png',
+    imgSrc: './assets/memberships/rwca.webp',
     altText: 'Roofing Assosciation of New York Logo'
   }
 ]
