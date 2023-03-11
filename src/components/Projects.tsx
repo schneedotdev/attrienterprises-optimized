@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Image from './Image'
 
 type ProjectProps = {
   location: string
@@ -39,14 +40,14 @@ const projectData: ProjectProps[] = [
 
 const Project = ({ location, imgSrc }: ProjectProps) => {
   return (
-    <li className="slide">
+    <div className="slide">
       <h3 className="project-title">{location}</h3>
-      <img src={imgSrc} alt="Roofing Project Image" />
-    </li>
+      <Image imgSrc={imgSrc} altText="Roofing Project Image" />
+    </div>
   )
 }
 
-const Slides = () => {
+const Projects = () => {
   const [activeSlide, setActiveSlide] = useState(0)
 
   function handlePrevClick() {
@@ -83,4 +84,4 @@ const Slides = () => {
   )
 }
 
-export default Slides
+export default Projects

@@ -50,9 +50,15 @@ export default function Awards() {
       <h2 className="section-title">Awards Received</h2>
 
       <ul className="award-list">
-        {awardData.map(({ name, link, presenter, year }) => {
+        {awardData.map(({ name, link, presenter, year }, i) => {
           return (
-            <Award name={name} link={link} presenter={presenter} year={year} />
+            <Award
+              key={i}
+              name={name}
+              link={link}
+              presenter={presenter}
+              year={year}
+            />
           )
         })}
       </ul>

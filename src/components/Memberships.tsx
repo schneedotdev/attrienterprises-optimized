@@ -1,3 +1,5 @@
+import Image from './Image'
+
 type MembershipProps = {
   imgSrc: string
   altText: string
@@ -35,7 +37,7 @@ const membershipData = [
 ]
 
 const Membership = ({ imgSrc, altText }: MembershipProps) => {
-  return <img src={imgSrc} alt={altText} />
+  return <Image imgSrc={imgSrc} altText={altText} />
 }
 
 export default function Memberships() {
@@ -44,8 +46,8 @@ export default function Memberships() {
       <h2 className="section-title">Associations and Memberships</h2>
 
       <div id="membership-logos" className="row">
-        {membershipData.map(({ imgSrc, altText }) => {
-          return <Membership imgSrc={imgSrc} altText={altText} />
+        {membershipData.map(({ imgSrc, altText }, i) => {
+          return <Membership key={i} imgSrc={imgSrc} altText={altText} />
         })}
       </div>
     </section>

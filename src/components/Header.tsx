@@ -1,3 +1,5 @@
+import Image from './Image'
+
 export default function Header() {
   return (
     <header id="primary-header" className="horizontal-padding">
@@ -7,10 +9,10 @@ export default function Header() {
           {/* Company Logo */}
           <li>
             <a id="attri" href="index.html">
-              <img
+              <Image
                 id="logo"
-                src="assets/images/attri-logo.png"
-                alt="Attri Enterprises Inc. Logo"
+                imgSrc="assets/images/attri-logo.png"
+                altText="Attri Enterprises Inc. Logo"
               />
               <span id="company-name"> Attri Enterprises</span>
             </a>
