@@ -5,7 +5,7 @@ type ProjectProps = {
   imgSrc: string
 }
 
-const projects: ProjectProps[] = [
+const projectData: ProjectProps[] = [
   {
     location: 'NYC Department of Sanitation - Chelsea, NY',
     imgSrc: './assets/projects/proj-3.jpg'
@@ -50,11 +50,11 @@ const Slides = () => {
   const [activeSlide, setActiveSlide] = useState(0)
 
   function handlePrevClick() {
-    setActiveSlide((activeSlide - 1 + projects.length) % projects.length)
+    setActiveSlide((activeSlide - 1 + projectData.length) % projectData.length)
   }
 
   function handleNextClick() {
-    setActiveSlide((activeSlide + 1) % projects.length)
+    setActiveSlide((activeSlide + 1) % projectData.length)
   }
 
   return (
@@ -75,8 +75,8 @@ const Slides = () => {
         </button>
 
         <Project
-          location={projects[activeSlide].location}
-          imgSrc={projects[activeSlide].imgSrc}
+          location={projectData[activeSlide].location}
+          imgSrc={projectData[activeSlide].imgSrc}
         />
       </div>
     </section>
