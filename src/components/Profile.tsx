@@ -1,6 +1,5 @@
 export default function Profile() {
   return (
-    // Includes company profile text
     <section id="profile" className="section-text horizontal-padding">
       <div className="row center neumorphism image-right">
         <div className="about-info">

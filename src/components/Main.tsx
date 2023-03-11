@@ -2,7 +2,6 @@ import Image from './Image'
 
 export default function Main() {
   return (
-    // Includes content for main section under Navbar
     <main>
       <div className="background-design">
         <Image

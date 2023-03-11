@@ -1,6 +1,5 @@
 export default function History() {
   return (
-    // Includes the history of Attri Enterprises
     <section id="history" className="section-text horizontal-padding">
       <div className="row center reverse neumorphism image-left">
         <div className="about-info">
