@@ -1,21 +1,37 @@
----
-export interface Props {
-   title: string;
-}
-
-const { title } = Astro.props;
----
-
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width" />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <meta name="generator" content={Astro.generator} />
-      <title>Attri Enterprises</title>
-   </head>
-   <body>
-      <slot />
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Attri Enterprises; Quality Roofing and Contracting Services"
+    />
+    <meta
+      name="keywords"
+      content="Attri Enterprises, Roofing, Contracting, New York"
+    />
+
+    <title>Attri Enterprises</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" />
+
+    <!-- External CSS links -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
