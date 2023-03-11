@@ -9,7 +9,7 @@ const AttriInfo = () => {
         imgSrc="assets/images/attri-logo-sm.png"
         altText="Attri Enterprises Inc. Logo"
       />
-      <h5 id="footer-name">Attri Enterprises</h5>
+      <h3 id="footer-name">Attri Enterprises</h3>
       <span id="attri-description">Roofing General Contractors</span>
       <span id="footer-copyright">&copy; Copyright 2022 Attri Enterprises</span>
     </section>
