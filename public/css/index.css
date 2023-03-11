@@ -443,11 +443,31 @@ main {
 
 /* left-side of footer */
 
+#map-link {
+	position: relative;
+}
+
+#map-link:hover #view-larger {
+	text-decoration: underline;
+}
+
 #map {
 	width: 225px;
 	height: 175px;
 	border: 0.1rem solid #c8ddf1;
 	border-radius: 1rem 0 0 1rem;
+}
+
+#view-larger {
+	position: absolute;
+	font-size: 1.2rem;
+	color: #1a73e8;
+	background: white;
+	padding: 1rem 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+	border-radius: 2px;
+	top: 1rem;
+	left: 1rem;
 }
 
 .footer-neumorphism {

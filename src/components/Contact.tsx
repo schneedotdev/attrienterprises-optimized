@@ -1,3 +1,5 @@
+import Image from './Image'
+
 const ContactInfo = () => {
   return (
     <section id="contact-info">
@@ -29,10 +31,15 @@ export default function Contact() {
   return (
     <div className="row footer-neumorphism">
       {/* Google Maps Location */}
-      <iframe
-        id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1598792806067!2d-73.9394063!3d40.7144968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2595386ba027b%3A0x3ca7d28d840b6571!2sAttri%20Enterprises!5e0!3m2!1sen!2sus!4v1655103489470!5m2!1sen!2sus"
-        loading="lazy"></iframe>
+      <a id="map-link" href="https://goo.gl/maps/6LHqZymPPTZ6F4mf8">
+        <span id="view-larger">View larger map</span>
+        <Image
+          id="map"
+          imgSrc="assets/images/map-preview.png"
+          altText="Preview of google maps"
+        />
+      </a>
+
       <ContactInfo />
     </div>
   )
