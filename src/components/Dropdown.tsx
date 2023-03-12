@@ -1,3 +1,37 @@
+const Menu = () => {
+  return (
+    <div className="dropdown-menu">
+      <ul className="mobile-list">
+        <li>
+          <a className="link-hover" href="#profile">
+            Profile
+          </a>
+        </li>
+        <li>
+          <a className="link-hover" href="#history">
+            History
+          </a>
+        </li>
+        <li>
+          <a className="link-hover" href="#projects">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a className="link-hover" href="#awards">
+            Awards
+          </a>
+        </li>
+        <li>
+          <a className="link-hover" href="#contact-info">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  )
+}
+
 export default function Dropdown() {
   return (
     <div className="dropdown-container">
@@ -10,35 +44,7 @@ export default function Dropdown() {
             className="fa fa-bars fa-xl"></i>
         </button>
 
-        <div className="dropdown-menu">
-          <ul className="mobile-list">
-            <li>
-              <a className="link-hover" href="#profile">
-                Profile
-              </a>
-            </li>
-            <li>
-              <a className="link-hover" href="#history">
-                History
-              </a>
-            </li>
-            <li>
-              <a className="link-hover" href="#projects">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="link-hover" href="#awards">
-                Awards
-              </a>
-            </li>
-            <li>
-              <a className="link-hover" href="#contact-info">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Menu />
       </div>
     </div>
   )

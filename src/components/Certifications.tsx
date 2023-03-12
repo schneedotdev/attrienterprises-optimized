@@ -1,24 +1,5 @@
 import Image from './Image'
-
-type CertificationProps = {
-  imgSrc: string
-  altText: string
-}
-
-const certData = [
-  {
-    imgSrc: './assets/certified-roofing-systems/kemco-logo.png',
-    altText: 'Kemco Systems logo'
-  },
-  {
-    imgSrc: './assets/certified-roofing-systems/johns-manville-logo.png',
-    altText: 'Johns Manville logo'
-  },
-  {
-    imgSrc: './assets/certified-roofing-systems/carlisle-logo.png',
-    altText: 'Carlisle Syntec Systems logo'
-  }
-]
+import { certData, CertificationProps } from '../data/certData'
 
 const Certification = ({ imgSrc, altText }: CertificationProps) => {
   return <Image imgSrc={imgSrc} altText={altText} />

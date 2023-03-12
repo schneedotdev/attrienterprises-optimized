@@ -4,10 +4,8 @@ import Image from './Image'
 export default function Header() {
   return (
     <header id="primary-header" className="horizontal-padding">
-      {/* Includes all navigation links and dropdown on mobile */}
       <nav>
         <ul id="nav-list">
-          {/* Company Logo */}
           <li>
             <a id="attri" href="/">
               <Image
@@ -18,7 +16,6 @@ export default function Header() {
               <span id="company-name"> Attri Enterprises</span>
             </a>
           </li>
-          {/* Profile, History, Projects and Awards link to respective part of webpage */}
           <li>
             <ul id="inner-list">
               <li className="nav-padding hide-mobile">
