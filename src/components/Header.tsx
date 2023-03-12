@@ -9,7 +9,7 @@ export default function Header() {
         <ul id="nav-list">
           {/* Company Logo */}
           <li>
-            <a id="attri" href="index.html">
+            <a id="attri" href="/">
               <Image
                 id="logo"
                 imgSrc="assets/images/attri-logo-sm.png"
