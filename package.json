@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^2.2.0",
     "@astrojs/preact": "^2.1.0",
+    "@astrojs/vercel": "^3.2.0",
     "astro": "^2.1.2",
     "preact": "^10.6.5"
   }
