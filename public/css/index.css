@@ -631,21 +631,22 @@ main {
 	}
 
 	#menu-icon {
+		filter: invert(57%) sepia(20%) saturate(5595%) hue-rotate(187deg) brightness(98%) contrast(98%);
+		width: 2rem;
+		height: 2rem;
 		margin-left: 2rem;
+	}
+
+	#menu-icon:hover {
+		filter: invert(18%) sepia(38%) saturate(4777%) hue-rotate(207deg) brightness(91%) contrast(106%);
 	}
 
 	.dropdown-button {
 		background: none;
 		border: none;
 		text-decoration: none;
-		color: #3f9bf6;
 		cursor: pointer;
 		padding: 0;
-	}
-
-	.dropdown.active>.dropdown-button,
-	.dropdown-button:hover {
-		color: #003a92;
 	}
 
 	.dropdown-menu {
@@ -664,7 +665,7 @@ main {
 
 	.dropdown.active>.dropdown-button+.dropdown-menu {
 		opacity: 1;
-		transform: translateY(0);
+		transform: translateY(-3px);
 		pointer-events: auto;
 	}
 

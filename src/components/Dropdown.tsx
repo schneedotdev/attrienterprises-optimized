@@ -37,11 +37,14 @@ export default function Dropdown() {
     <div className="dropdown-container">
       <div className="dropdown" data-dropdown>
         <button className="dropdown-button" aria-label="dropdown-button">
-          <i
-            aria-hidden
+          <img
             id="menu-icon"
             data-dropdown-button
-            className="fa fa-bars fa-xl"></i>
+            src="assets/icons/bars-solid.svg"
+            alt="dropdown menu icon"
+            loading="lazy"
+            decoding="async"
+          />
         </button>
 
         <Menu />
